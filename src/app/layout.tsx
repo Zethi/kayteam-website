@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { Footer } from "@/components/ui/Footer";
-import { NavBar } from "@/components/ui/NavBar/NavBar";
+import { NavBar } from "@/components/ui/NavBar";
 
 export const metadata = {
   title: "Create Next App",
