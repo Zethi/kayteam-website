@@ -28,7 +28,12 @@ export const NavBar = () => {
       </div>
 
       <div className="block cursor-pointer lg:hidden ">
-        <Image src="/assets/ui/navbar/three-horizontal-lines.svg" alt="horizontal-lines" height={30} width={30} />
+        <Image
+          src="/assets/components/ui/NavBar/three-horizontal-lines.svg"
+          alt="horizontal-lines"
+          height={30}
+          width={30}
+        />
       </div>
     </nav>
   );
