@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import { Footer } from "@/components/ui/Footer";
 import { NavBar } from "@/components/ui/NavBar/NavBar";
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
