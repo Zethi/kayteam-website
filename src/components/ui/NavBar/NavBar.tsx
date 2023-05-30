@@ -3,7 +3,7 @@ import { NavLink } from "./NavLink";
 
 export const NavBar = () => {
   return (
-    <nav className="flex h-24 w-screen items-center justify-between bg-white px-6 shadow-lg 2xl:px-80">
+    <nav className="flex h-24 w-full items-center justify-between bg-white px-6 shadow-lg 2xl:px-80">
       <div>
         <Image
           src={"https://kayteam.org/wp-content/themes/KayTeam_Template/images/Recurso31.png"}
