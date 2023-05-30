@@ -8,7 +8,7 @@ interface Props {
 export const ButtonTemplate: FC<Props> = ({ className, children }) => {
   return (
     <button
-      className={className + " cursor-pointer bg-kt-orange text-white transition-colors duration-200 hover:bg-black"}
+      className={"cursor-pointer bg-kt-orange text-white transition-colors duration-200 hover:bg-black " + className}
     >
       {children}
     </button>

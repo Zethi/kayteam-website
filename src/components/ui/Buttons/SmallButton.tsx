@@ -7,5 +7,5 @@ interface Props {
 }
 
 export const SmallButton: FC<Props> = ({ className, children }) => {
-  return <ButtonTemplate className={className + " px-8 py-3 text-lg rounded-sm"}>{children}</ButtonTemplate>;
+  return <ButtonTemplate className={"px-8 py-3 w-fit text-lg rounded-sm " + className}>{children}</ButtonTemplate>;
 };

@@ -7,5 +7,5 @@ interface Props {
 }
 
 export const BigButton: FC<Props> = ({ className, children }) => {
-  return <ButtonTemplate className={className + " px-16 py-4 text-2xl rounded-sm"}>{children}</ButtonTemplate>;
+  return <ButtonTemplate className={"px-16 py-4 w-fit text-2xl rounded-sm " + className}>{children}</ButtonTemplate>;
 };

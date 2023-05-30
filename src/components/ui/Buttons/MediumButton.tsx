@@ -7,5 +7,5 @@ interface Props {
 }
 
 export const MediumButton: FC<Props> = ({ className, children }) => {
-  return <ButtonTemplate className={className + " px-12 py-4 text-xl rounded-sm"}>{children}</ButtonTemplate>;
+  return <ButtonTemplate className={"px-12 py-4 w-fit text-xl rounded-sm " + className}>{children}</ButtonTemplate>;
 };
