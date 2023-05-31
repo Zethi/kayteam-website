@@ -11,22 +11,21 @@ interface Props {
 }
 export const TeamPersonCard: FC<Props> = ({ name, jobName, image, instagramURL, twitterURL, githubURL }) => {
   return (
-    <div className="flex flex-row flex-wrap items-center justify-center rounded p-8 shadow-card sm:w-[435px] md:w-[520px]">
+    <div className="flex flex-row flex-wrap items-center justify-center rounded px-4 py-8 shadow-card md:px-8 md:py-8">
       {/* Avatar */}
       <div
-        className="cover flex h-36 w-36  items-center justify-center overflow-hidden rounded-full bg-cover bg-center bg-no-repeat sm:h-40 sm:w-40"
+        className="flex h-36 w-36 items-center justify-center overflow-hidden rounded-full bg-cover bg-center bg-no-repeat sm:h-40 sm:w-40"
         style={{ backgroundImage: `url("${image}")` }}
       />
 
-      <div className="mt-2 sm:ml-16 sm:mt-0">
+      <div className="p-4 sm:ml-16 sm:mt-0 md:p-0">
         <h3 className="mb-2 font-oswald text-4xl font-normal">{name}</h3>
-        <p className="mx-6 text-center font-lato text-base font-light"></p>
         <div className="flex justify-center rounded bg-kt-orange p-1 align-middle text-lg font-medium text-white">
           {jobName}
         </div>
 
         {/* SVG */}
-        <div className="mt-8 flex flex-row justify-center gap-5 sm:mt-10">
+        <div className="mt-6 flex flex-row items-center justify-center gap-5 sm:mt-3 md:mt-5">
           <Link href={instagramURL} className="duration-150 hover:scale-110">
             <svg className="h-8 w-8 " viewBox="0 0 512 512" fill="#ff5307">
               <path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"></path>
