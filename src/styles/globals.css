@@ -14,9 +14,13 @@
 }
 
 :root {
+  --kt-orange: #ff5307;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --swiper-navigation-color: "black";
+  --swiper-pagination-bottom: -5px;
+  --swiper-pagination-color: var(--kt-orange);
 }
 
 @media (prefers-color-scheme: dark) {
