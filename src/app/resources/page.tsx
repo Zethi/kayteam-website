@@ -1,6 +1,6 @@
 import { ResourceCard } from "@/components/ui/Cards";
 import { PluginInfoResponse } from "@/interfaces/PluginInfoResponse";
-import { timestampToTextConverter } from "../utils/timestampToTextConverter";
+import { timestampToTextConverter } from "../../utils/timestampToTextConverter";
 
 const pluginsId = [92834, 95021, 95365, 98063];
 
