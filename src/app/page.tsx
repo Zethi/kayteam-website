@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Pagination, Autoplay, Keyboard } from "swiper";
 import { SmallButton } from "@/components/ui/Buttons";
-import { CharacteristicsCard } from "@/components/ui/Card";
+import { CharacteristicsCard } from "@/components/ui/Cards";
 import { OpinionBox } from "@/components/ui/Box/OpinionBox";
 import { HoverableInfo } from "@/components/ui/HoverableInfo";
 
@@ -170,13 +170,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-6 my-12 flex justify-center md:mx-0 md:my-16">
+      <div className="mx-6 my-12 flex justify-center md:mx-0 md:my-24">
         <form className="grid w-fit grid-cols-2 rounded-md p-6 shadow-box md:p-16" action="">
-          <div className="col-span-2 flex flex-col items-center md:col-span-1 md:mr-10  md:items-end">
+          <div className="col-span-2 flex flex-col items-center md:col-span-1 md:mr-16  md:items-end">
             <p className="text-4xl ">Contact Info</p>
             <a
               href="mailto:contact@kayteam.org"
-              className="mt-2 flex items-center gap-1 font-normal transition-colors hover:text-kt-orange md:text-lg"
+              className="mt-2 flex items-center gap-1 font-normal transition-colors hover:text-kt-orange md:text-xl"
             >
               <svg className="hidden h-6 w-6 md:block" viewBox="0 0 448 448" fill={"#ff5307"}>
                 <path d="m314.375 144h-180.75l90.375 77.464844zm0 0"></path>
