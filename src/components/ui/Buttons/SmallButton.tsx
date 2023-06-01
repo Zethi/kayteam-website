@@ -4,8 +4,13 @@ import { ButtonTemplate } from "./ButtonTemplate";
 interface Props {
   className?: string;
   children: React.ReactNode;
+  href?: string;
 }
 
-export const SmallButton: FC<Props> = ({ className, children }) => {
-  return <ButtonTemplate className={"px-8 py-3 w-fit text-lg rounded-sm " + className}>{children}</ButtonTemplate>;
+export const SmallButton: FC<Props> = ({ className, children, href }) => {
+  return (
+    <ButtonTemplate href={href} className={"w-fit rounded-sm px-8 py-3 text-lg " + className}>
+      {children}
+    </ButtonTemplate>
+  );
 };
