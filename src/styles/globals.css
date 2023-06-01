@@ -10,6 +10,7 @@
     margin: 0;
     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    @apply scroll-smooth;
   }
 }
 
