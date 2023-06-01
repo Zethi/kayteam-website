@@ -12,7 +12,7 @@ export const Footer = () => {
         <p className="flex flex-row justify-center gap-1 font-normal">
           <span className="hidden md:block">{" • "}</span>
           {" Join us on "}
-          <SocialLink href="https://discord.com/invite/8mSGKuV" text="Discord" />
+          <SocialLink href="https://kayteam.org/discord" text="Discord" />
         </p>
 
         <p className="flex flex-row justify-center gap-1 font-normal">
@@ -24,7 +24,7 @@ export const Footer = () => {
 
       <p className="font-bold">contact@kayteam.org</p>
       <br />
-      <p className="font-normal">KayTeam © 2019 - 2022 All rights reserved.</p>
+      <p className="font-normal">KayTeam © 2019 - 2023 All rights reserved.</p>
     </footer>
   );
 };
