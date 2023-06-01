@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        card: "0px 1px 5px -2px rgba(0,0,0,1);",
-        box: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+        card: "0px 1px 5px -2px rgba(0,0,0,1)",
+        box: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"
       },
       lineHeight: {
         11: "52px"
