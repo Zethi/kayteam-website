@@ -22,7 +22,9 @@ export default function Home() {
               <br className="pt-2" />
               your ideas
             </h1>
-            <SmallButton className="mt-4">Contact Us</SmallButton>
+            <SmallButton href="#contact" className="mt-4">
+              Contact Us
+            </SmallButton>
           </div>
         </div>
 
@@ -41,9 +43,11 @@ export default function Home() {
         <p className="mx-5 text-lg font-light md:mx-0 md:mt-0 md:text-3xl">
           Do you want to be up to date with the news?
         </p>
-        <SmallButton className="my-4 flex items-center gap-3 text-base md:my-0 md:text-xl">
-          <Image src="/assets/logos/discord-logo-white.svg" height={30} width={30} alt="Discord" />
-          Join us on Discord
+        <SmallButton href="https://kayteam.org/discord" className="my-4 text-base md:my-0 md:text-xl">
+          <div className="flex flex-row flex-wrap items-center gap-3">
+            <Image src="/assets/logos/discord-logo-white.svg" height={30} width={30} alt="Discord" />
+            Join us on Discord
+          </div>
         </SmallButton>
       </div>
 
@@ -170,7 +174,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-6 my-12 flex justify-center md:mx-0 md:my-24">
+      <div id="contact" className="mx-6 my-12 flex justify-center md:mx-0 md:my-24">
         <form className="grid w-fit grid-cols-2 rounded-md p-6 shadow-box md:p-16" action="">
           <div className="col-span-2 flex flex-col items-center md:col-span-1 md:mr-16  md:items-end">
             <p className="text-4xl ">Contact Info</p>
