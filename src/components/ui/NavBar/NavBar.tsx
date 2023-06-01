@@ -14,7 +14,7 @@ export const NavBar = () => {
       document.body.style.overflow = "hidden";
     }
   }, [mobileNavIsDeployed]);
-  console.log(mobileNavIsDeployed);
+
   return (
     <nav className="flex h-24 w-full items-center justify-between bg-white px-6 shadow-lg 2xl:px-80">
       <Link href={"/"}>
