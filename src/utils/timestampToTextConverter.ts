@@ -1,9 +1,9 @@
 export function timestampToTextConverter(UNIX_timestamp: number) {
-  var a = new Date(UNIX_timestamp * 1000);
-  var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  var year = a.getFullYear();
-  var month = months[a.getMonth()];
-  var date = a.getDate();
-  var time = date + " " + month + " " + year;
-  return time;
+  const timestampDate = new Date(UNIX_timestamp * 1000);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const year = timestampDate.getFullYear();
+  const month = months[timestampDate.getMonth()];
+  const day = timestampDate.getDate();
+
+  return day + " " + month + " " + year;
 }
