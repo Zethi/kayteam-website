@@ -3,7 +3,8 @@ import { Footer } from "@/components/ui/Footer";
 import { NavBar } from "@/components/ui/NavBar";
 
 export const metadata = {
-  title: "KayTeam"
+  title: "KayTeam",
+  description: "At KayTeam, customer satisfaction is our priority, and we do everything to achieve it."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
