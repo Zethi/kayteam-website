@@ -88,7 +88,9 @@ export default function Home() {
           <p className="text-lg font-light md:text-3xl ">
             Are you looking for a Minecraft host at a good price and with good performance?
           </p>
-          <SmallButton className="text-base font-bold md:text-xl">Check SparkedHost</SmallButton>
+          <SmallButton href="https://sparkedhost.com" className="text-base font-bold md:text-xl">
+            Check SparkedHost
+          </SmallButton>
         </div>
       </div>
 
