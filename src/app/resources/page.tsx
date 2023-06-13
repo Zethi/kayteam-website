@@ -31,7 +31,7 @@ export default async function Resources() {
   const pluginsVersions: Map<number, PluginInfoResponse> = await getPluginVersions();
   return (
     <main>
-      <div className="mx-3 flex flex-col items-center justify-center sm:mx-16 md:mx-40">
+      <div className="mx-3 flex flex-col items-center justify-center sm:mx-16 lg:mx-60 xl:mx-96">
         <h1 className="mt-12 text-5xl md:mt-16 md:text-6xl">Resources</h1>
 
         <div className="mb-16 mt-12 flex w-full flex-col gap-7">
