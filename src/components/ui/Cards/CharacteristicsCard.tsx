@@ -1,3 +1,4 @@
+import { lato } from "@/app/fonts";
 import Image from "next/image";
 import { FC } from "react";
 
@@ -12,8 +13,8 @@ export const CharacteristicsCard: FC<Props> = ({ image, title, description }) =>
       <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-lg bg-kt-orange">
         <Image src={image} height={64} width={64} alt={"card-image"} />
       </div>
-      <h3 className="mb-2 font-oswald text-3xl font-normal">{title}</h3>
-      <p className="mx-6 text-center font-lato text-base font-light">{description}</p>
+      <h3 className="font-oswald mb-2 text-3xl font-normal">{title}</h3>
+      <p className={`mx-6 text-center ${lato.className} text-base font-light`}>{description}</p>
     </div>
   );
 };

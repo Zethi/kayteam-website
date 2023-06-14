@@ -9,9 +9,7 @@ interface Props {
 export const NavLink: FC<Props> = ({ href, children, className }) => {
   return (
     <Link
-      className={
-        className + " " + "font-extrabold border-kt-orange pb-2 font-oswald hover:border-b-2 focus:text-kt-orange "
-      }
+      className={className + " " + "border-kt-orange pb-2 font-extrabold hover:border-b-2 focus:text-kt-orange "}
       href={href}
     >
       {children}

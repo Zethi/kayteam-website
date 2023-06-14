@@ -19,7 +19,7 @@ export const TeamPersonCard: FC<Props> = ({ name, jobName, image, instagramURL, 
       />
 
       <div className="p-4 sm:ml-16 sm:mt-0 md:p-0">
-        <h3 className="mb-2 font-oswald text-4xl font-normal">{name}</h3>
+        <h3 className="mb-2 text-4xl font-normal">{name}</h3>
         <div className="flex justify-center rounded bg-kt-orange p-1 align-middle text-lg font-medium text-white">
           {jobName}
         </div>

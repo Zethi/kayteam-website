@@ -1,8 +1,9 @@
+import { lato } from "@/app/fonts";
 import { FC } from "react";
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-col items-center bg-black py-10 font-lato text-xs text-white lg:text-sm ">
+    <footer className={`${lato.className} flex flex-col items-center bg-black py-10 text-xs text-white lg:text-sm `}>
       <div className="flex-row gap-1 md:flex">
         <p className="flex flex-row justify-center gap-1 font-normal ">
           {" Follow us on "}

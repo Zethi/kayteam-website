@@ -197,7 +197,9 @@ export default function Home() {
               cols={50}
             />
 
-            <SmallButton className="w-full">Submit</SmallButton>
+            <SmallButton className="w-full" href="/">
+              Submit
+            </SmallButton>
           </div>
         </form>
       </div>

@@ -10,7 +10,7 @@ interface Props {
 export const MobileNavLink: FC<Props> = ({ href, children, className, onClick }) => {
   return (
     <Link
-      className={className + " " + "font-oswald font-extrabold hover:text-black focus:text-black "}
+      className={className + " " + "font-extrabold hover:text-black focus:text-black "}
       href={href}
       onClick={onClick}
     >
