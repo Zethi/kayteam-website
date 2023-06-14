@@ -19,7 +19,7 @@ export const NavBar = () => {
     <nav className="flex h-24 w-full items-center justify-between bg-white px-6 shadow-lg 2xl:px-80">
       <Link href={"/"}>
         <Image
-          src={"https://kayteam.org/wp-content/themes/KayTeam_Template/images/Recurso31.png"}
+          src={"/assets/logos/kayteam-logo-navbar.webp"}
           alt="KayTeam"
           width={180}
           height={55}
