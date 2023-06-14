@@ -17,10 +17,6 @@ module.exports = {
       colors: {
         "kt-orange": "#FF5307"
       },
-      fontFamily: {
-        lato: ["Lato", "sans-serif"],
-        oswald: ["Oswald", "sans-serif"]
-      },
       borderRadius: {
         s: "4px"
       }
