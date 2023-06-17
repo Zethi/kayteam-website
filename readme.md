@@ -21,7 +21,7 @@ You have two options for building and deploying the application:
 
 ### Option 1: Manual Build and Deployment
 
-1. Compile the application by running the following command: `yarn build`
+1. Compile the application by running the command `yarn build`.
    This will generate a `build` folder with the compiled files ready for deployment.
 2. Start the production server using the command `yarn start`.
    The application will now be available at [http://localhost:3000](http://localhost:3000).
