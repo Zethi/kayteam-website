@@ -75,7 +75,7 @@ export default function Home() {
       <div
         className="mt-12 flex h-40 w-full text-white md:mt-16"
         style={{
-          backgroundImage: "url(/assets/sponsors/Sparked/sparked-youtube-banner.png)"
+          backgroundImage: "url(/assets/sponsors/Sparked/sparked-youtube-banner.webp)"
         }}
       >
         <div className="text-md mx-5 flex w-full flex-col items-center justify-center gap-5 md:flex-row md:gap-8 xl:mx-0">
