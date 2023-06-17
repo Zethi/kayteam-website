@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* Right */}
         <div className="hidden md:block">
-          <Image src={"/assets/decorations/KayTeamTop.webp"} alt="Kayteam-logo" height={500} width={500} />
+          <Image src={"/assets/decorations/KayTeamTop.webp"} priority alt="Kayteam-logo" height={500} width={500} />
         </div>
       </div>
 

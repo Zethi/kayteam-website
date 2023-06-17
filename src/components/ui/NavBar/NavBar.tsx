@@ -20,7 +20,8 @@ export const NavBar = () => {
       <Link href={"/"}>
         <Image
           src={"/assets/logos/kayteam-logo-navbar.webp"}
-          alt="KayTeam"
+          alt="KayTeam-nav-logo"
+          priority
           width={180}
           height={55}
           onClick={() => {
