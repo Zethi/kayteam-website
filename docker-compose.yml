@@ -1,0 +1,5 @@
+services:
+  kayteam_frontend:
+    build: .
+    ports:
+      - "80:3000"
