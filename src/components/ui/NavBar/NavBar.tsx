@@ -38,7 +38,7 @@ export const NavBar = () => {
         <NavLink href={"https://github.com/KayTeam-Studio"} className={"mx-6 text-lg  xl:text-xl"}>
           PORTFOLIO
         </NavLink>
-        <NavLink href={"/knowledge"} className={"mx-6 text-lg  xl:text-xl"}>
+        <NavLink href={"/"} className={"mx-6 text-lg  xl:text-xl"}>
           KNOWLEDGE BASE
         </NavLink>
       </div>
