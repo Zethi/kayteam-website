@@ -98,27 +98,27 @@ export default function Home() {
         <div className="mt-6 flex flex-wrap justify-center gap-12 md:mt-10">
           <HoverableInfo>
             <Image
-              className="h-40"
+              className="h-40 object-cover"
               src={"/assets/sponsors/Sparked/sparked-logo-white.png"}
               alt="Sparked-logo-white"
-              height={100}
+              height={90}
               width={200}
             />
           </HoverableInfo>
 
           <HoverableInfo>
             <Image
-              className="h-40"
+              className="h-40 object-cover"
               src={"/assets/logos/kayteam-logo-white.png"}
               alt="Kayteam-logo-white"
               height={100}
-              width={170}
+              width={160}
             />
           </HoverableInfo>
 
           <HoverableInfo>
             <Image
-              className="h-40"
+              className="h-40 object-cover"
               src={"/assets/sponsors/Gtadictos/gtadictos-logo-white.png"}
               alt="Gtadictos-logo-white"
               height={160}
